@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/todo/static/css/main.6984b7c7.chunk.css",
+    "main.js": "/todo/static/js/main.34c526ba.chunk.js",
+    "main.js.map": "/todo/static/js/main.34c526ba.chunk.js.map",
+    "runtime-main.js": "/todo/static/js/runtime-main.d3ef14df.js",
+    "runtime-main.js.map": "/todo/static/js/runtime-main.d3ef14df.js.map",
+    "static/js/2.2c7ba3df.chunk.js": "/todo/static/js/2.2c7ba3df.chunk.js",
+    "static/js/2.2c7ba3df.chunk.js.map": "/todo/static/js/2.2c7ba3df.chunk.js.map",
+    "index.html": "/todo/index.html",
+    "precache-manifest.54f75c9cd1e2491eacd31501274331a3.js": "/todo/precache-manifest.54f75c9cd1e2491eacd31501274331a3.js",
+    "service-worker.js": "/todo/service-worker.js",
+    "static/css/main.6984b7c7.chunk.css.map": "/todo/static/css/main.6984b7c7.chunk.css.map",
+    "static/js/2.2c7ba3df.chunk.js.LICENSE.txt": "/todo/static/js/2.2c7ba3df.chunk.js.LICENSE.txt",
+    "static/media/fonts.scss": "/todo/static/media/opensans-semibold.33f225b8.ttf",
+    "static/media/avatar.jpg": "/todo/static/media/avatar.b99bd621.jpg",
+    "static/media/search.svg": "/todo/static/media/search.91505eee.svg",
+    "static/media/trello-logo.png": "/todo/static/media/trello-logo.0099ec37.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3ef14df.js",
+    "static/js/2.2c7ba3df.chunk.js",
+    "static/css/main.6984b7c7.chunk.css",
+    "static/js/main.34c526ba.chunk.js"
+  ]
+}
