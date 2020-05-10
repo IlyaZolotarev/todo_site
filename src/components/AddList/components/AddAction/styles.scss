@@ -1,0 +1,45 @@
+@import './../../../../styles/constants/colors';
+
+.add-list-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  margin-left: 45px;
+
+  input {
+    margin-bottom: 10px;
+    font-family: 'NotoSans', Arial, Helvetica, sans-serif;
+    color: $dolphin;
+    border: 1px solid $lavender;
+    padding: 5px;
+  }
+
+  &::placeholder {
+    font-family: 'NotoSans', Arial, Helvetica, sans-serif;
+    color: $dolphin;
+  }
+
+  &__buttons-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+}
+
+.buttons-block {
+  &__add-list {
+    background-color: $pastelGreen;
+    border-radius: 3px;
+    margin-right: 20px;
+    height: 40px;
+    color: $white;
+  }
+  &__close {
+    background-color: $tomato;
+    border-radius: 3px;
+    width: 80px;
+    color: $white;
+    height: 40px;
+  }
+}

@@ -1,0 +1,30 @@
+@import './../../../../styles//constants/colors';
+
+.board-list {
+  margin-left: 35px;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (max-width: 959px) {
+    margin-left: 0;
+    margin-right: 35px;
+  }
+  select {
+    cursor: pointer;
+    border: none;
+    font-family: 'NotoSans', Arial, Helvetica, sans-serif;
+    min-width: 185px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('./../../../../assets/images/select-arrow.png') no-repeat
+      160px;
+  }
+
+  span {
+    text-transform: uppercase;
+    color: $curiousBlue;
+    font-size: 10px;
+    font-weight: 800;
+  }
+}

@@ -1,0 +1,16 @@
+@import './../../../../styles/constants/colors';
+
+.todo-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 350px;
+  width: 100%;
+  min-height: 60px;
+  border: 1px solid $lavender;
+  border-radius: 5px;
+  box-shadow: 0 5px 20px -4px #e9e3e3;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}

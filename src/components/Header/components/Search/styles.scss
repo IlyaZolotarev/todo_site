@@ -1,0 +1,48 @@
+@import './../../../../styles/constants/colors';
+
+.search-block {
+  display: flex;
+  border: 1px solid $spindle;
+  border-radius: 50px;
+  padding: 0 15px;
+  max-width: 360px;
+  width: 100%;
+  margin-right: 40px;
+
+  @media screen and (max-width: 850px) {
+    margin-right: 20px;
+  }
+
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
+
+  img {
+    margin-left: 5px;
+  }
+
+  &__search-input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-family: 'Alwyn', sans-serif, Arial, Helvetica, sans-serif;
+    color: $dolphin;
+    font-style: italic;
+    &::-webkit-input-placeholder {
+      color: $dolphin;
+      font-style: italic;
+    }
+    &::-moz-placeholder {
+      color: $dolphin;
+      font-style: italic;
+    }
+    &:-moz-placeholder {
+      color: $dolphin;
+      font-style: italic;
+    }
+    &:-ms-input-placeholder {
+      color: $dolphin;
+      font-style: italic;
+    }
+  }
+}

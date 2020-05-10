@@ -1,0 +1,47 @@
+@import './../../styles/constants/colors';
+
+.todo-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-shrink: 0;
+  min-height: 60px;
+  max-height: 775px;
+  max-width: 390px;
+  width: 100%;
+  margin-left: 45px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: $white;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.Collapsible__trigger {
+  font-family: 'MyriadPro', Arial, Helvetica, sans-serif;
+  color: $curiousBlue;
+  font-weight: 800;
+}
+
+.Collapsible__contentInner {
+  margin-top: 20px;
+}
+.Collapsible {
+  width: 100%;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    /* chrome based */
+    width: 0px; /* ширина scrollbar'a */
+    background: transparent; /* опционально */
+  }
+}
+
+.empty-message {
+  text-align: center;
+  margin-bottom: 20px;
+}

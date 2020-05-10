@@ -1,0 +1,13 @@
+.logo-wrapper {
+    width: 140px;
+    
+    img {
+        max-width: 100%;
+    }
+
+    @media screen and(max-width: 959px) {
+        display: none;
+        
+    }
+
+}

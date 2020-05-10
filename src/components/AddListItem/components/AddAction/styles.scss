@@ -1,0 +1,43 @@
+@import './../../../../styles/constants/colors';
+
+.add-item-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 25px;
+
+  textarea {
+    margin-bottom: 10px;
+    font-family: 'NotoSans', Arial, Helvetica, sans-serif;
+    color: $dolphin;
+    padding: 5px;
+  }
+
+  &::placeholder {
+    font-family: 'NotoSans', Arial, Helvetica, sans-serif;
+    color: $dolphin;
+  }
+
+  &__buttons-block {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.buttons-block {
+  &__add-task {
+    background-color: $pastelGreen;
+    border-radius: 3px;
+    margin-right: 20px;
+    height: 40px;
+    color: $white;
+  }
+  &__close {
+    background-color: #ff5959;
+    border-radius: 3px;
+    width: 80px;
+    color: $white;
+    height: 40px;
+  }
+}
